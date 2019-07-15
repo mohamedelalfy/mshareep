@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1.2;
+    overflow-x: hidden;
+}
+.section__container {
+    margin: 0 auto;
+    width: 92%;
+    max-width: 960px;
+}
+.workspace.section__container{
+    display: flex;
+}
+
+/* start new-workspace */
+.new__workspace {
+    padding: 4em;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.top__bar__logo {
+    display: flex;
+    margin: 2em 0;
+    align-items: center;
+}
+
+.top__bar__logo h3 {
+    text-transform: uppercase;
+    color: #FD9A6E;
+
+}
+
+.top__bar__logo img {
+    margin-right: 1em;
+   
+}
+.new__workspace form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.new__workspace h2 {
+    font-size: 2.5em;
+    margin: .5em 0;
+}
+
+.new__workspace label {
+    margin: 1.5em 0;
+    font-size: 1.3em;
+}
+
+.new__workspace input {
+    padding: 1em;
+    border: 1px solid #C1C3C4;
+}
+
+.new__workspace button {
+    margin-top: 1.5em;
+    background: #C1C3C4;
+    padding: 1.2em;
+    border: none;
+    transition: all ease-in-out .2s;
+}
+.new__workspace.name__of__company button,
+.new__workspace.join__workspace button{
+    margin-top: 30vh;
+   
+}
+.new__workspace button:hover,
+.new__workspace button:active {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: rgb(230, 110, 45);
+    color: #fff;
+}
+
+.new__workspace .hidden {
+    display: none;
+}
+
+.new__workspace .btn.attach {
+    display: block;
+    padding: 1em;
+    border: 1px solid #C1C3C4;
+    cursor: pointer;
+}
+
+.new__workspace .btn.attach i {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fa-arrow-up:before {
+    content: "\f062";
+    background: #FD9A6E;
+    padding: .5em;
+    color: #fff;
+    border-radius: 50%;
+}
+@media (max-width:768px){
+    .workspace.section__container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .new__workspace.name__of__company button,
+    .new__workspace.join__workspace button{
+        margin-top: 1.5em;
+    }
+    .new__workspace h2{
+        text-align: center;
+    }
+    .top__bar__logo{
+        justify-content: center;
+    }
+}
+/* end  new-workspace */
+
+/* start who work on project */
+.new__workspace.work--on input {
+    margin-top: 2em;
+}
+
+.new__workspace.work--on .left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1em;
+    color: #FD9A6E;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.fa-plus-circle {
+ margin-right:  .5em;
+}
+/* end who work on project  */
+/* name--company start */
+.new__workspace.name__of__company h2 {
+    font-size: 2em;
+    margin: .5em 0;
+}
+
+/* name--company end */

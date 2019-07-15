@@ -1,0 +1,81 @@
+/* start question section */
+#questions{
+    padding: 4em 0;
+}
+.main__section.theme--general.question .main__section__heading {
+    text-align: center;
+}
+.main__section.theme--general.question .main__section__heading h2{
+    line-height: 1.7;
+}
+.question__group__content {
+    display: flex;
+    border-bottom: 1px solid #C1C2C3;
+    align-items: center;
+}
+
+.question__group__content {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.question__group__content h3 {
+    color: #262626;
+}
+
+.question__group__content .text {
+
+    font-size: 1.5em;
+}
+
+.question__group__content .logo {
+    margin-left: auto;
+    font-size: 1.5em;
+
+}
+
+.question__group__content .logo i {
+    color: #FD9A6E;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.question__group__content.active H3 {
+
+    color: #FD9A6E;
+}
+
+.question__group__content p {
+    display: none;
+
+}
+
+.question__group__content.active p {
+    padding: 1em;
+    color: #9B9B9B;
+    max-width: 52em;
+    display: block;
+
+}
+
+.question__group__content.active .logo i {
+
+    display: none;
+    transition: all ease-in-out .3s;
+
+}
+
+.question__group__content.active .logo::after {
+
+    content: "\f106";
+    font-family: FontAwesome;
+    color: #FD9A6E;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* end question section */

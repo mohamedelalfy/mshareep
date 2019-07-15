@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1.2;
+    overflow-x: hidden;
+}
+
+.section__container {
+    margin: 0 auto;
+    width: 92%;
+    max-width: 960px;
+}
+
+
+#check-email {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2em 6em;
+    border-radius: 20px;
+    border: 1px solid #cbcbcb;
+    box-shadow: 7px 10px 30px #ddd,
+        -7px -10px 30px #ddd;
+}
+
+.top__bar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.top__bar__logo h3 {
+    text-transform: uppercase;
+    color: #FD9A6E;
+
+}
+
+.top__bar__logo img {
+    margin-right: 1em;
+    width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section__container {
+        width: 80%;
+        padding: .7em 1.5em;
+    }
+
+}
+
+#check-email h2 {
+    color: #0e1a1f;
+    font-size: 30px;
+    font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    #check-email h2 {
+        font-size: 17px;
+    }
+
+}
+
+#check-email p {
+    color: #7B8285;
+   margin: 2em 0;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .email-container p {
+        font-size: 13px;
+    }
+
+}
+
+#check-email p span {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #check-email p span {
+        display: inline
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    #check-email p {
+        font-size: 11px;
+    }
+
+}
+
+#check-email .digit input {
+    border: 1px solid #818181;
+    width: 50px;
+    height: 65px;
+}
+
+@media only screen and (max-width:600px) {
+    #check-email .digit input {
+        width: 30px;
+        height: 35px;
+    }
+
+}
+
+#check-email .digit .dash {
+    background: #c4c6c7;
+    color: #c4c6c7;
+    width: 30px;
+    height: 2px;
+    border: none;
+}
+
+
+#check-email .cheack-email--img img {
+    align-items: center;
+    margin-top: 2em;
+}
+
+@media only screen and (max-width:600px) {
+
+    #check-email img {
+        width: 100%
+    }
+
+}

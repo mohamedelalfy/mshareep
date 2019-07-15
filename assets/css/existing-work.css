@@ -1,0 +1,64 @@
+.existing-work {
+    background: url('../img/Group\ 33.png');
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 4em 0;
+}
+
+.existing-work p {
+    color: #fff;
+    display: inline;
+    margin-right: 25px;
+    font-size: 1.4em;
+}
+
+
+.outline-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    background: transparent;
+    color: #fff
+}
+
+.outline-btn:hover {
+    background: #FD9A6E;
+    transition: 0.5s
+}
+
+.existing-work img {
+    display: block;
+    width: 400px;
+    margin: auto;
+    padding: 8em
+}
+@media(max-width:768px) {
+    .existing-work p {
+        display: block;
+
+    }
+
+    .existing-work {
+        width: 100vw;
+    }
+
+    .existing-work img {
+        max-width: 50%;
+    }
+
+    .outline-btn {
+        margin-top: 2em;
+        font-size: 1.2em;
+    }
+    .existing-work p {
+       
+        margin-right: 0;
+      
+    }
+}
